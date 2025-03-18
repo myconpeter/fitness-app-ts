@@ -13,6 +13,9 @@
 	--color-primary-500: #ff6b66;
 	--color-secondary-400: #ffcd5b;
 	--color-secondary-500: #ffc132;
+
+	--font-dmsans: 'DMSans';
+	--font-montserrat: 'Montserrat';
 }
 
 html,
@@ -21,6 +24,6 @@ body,
 .app {
 	height: 100%;
 	width: 100%;
-	font-family: 'DM Sans', sans-serif;
+	font-family: 'DMSans', sans-serif;
 	color: #5e0000;
 }
