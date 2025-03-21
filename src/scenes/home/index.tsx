@@ -56,7 +56,7 @@ const Home = ({ setSelectedPage }: Props) => {
 						</p>
 					</motion.div>
 					<motion.div
-						className='mt-8 flex items-center gap-8 md:justify-start'
+						className='my-10 flex items-center gap-8 md:justify-start'
 						initial='hidden'
 						whileInView='visible'
 						viewport={{ once: true, amount: 0.5 }}
@@ -75,7 +75,7 @@ const Home = ({ setSelectedPage }: Props) => {
 					</motion.div>
 				</div>
 
-				<div className='flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end'>
+				<div className='flex  basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end'>
 					<img
 						src={HomePageGraphic}
 						alt='HomePageGraphic'
@@ -84,7 +84,7 @@ const Home = ({ setSelectedPage }: Props) => {
 			</motion.div>
 
 			{isAboveMediumScreen && (
-				<div className='h-[150px] w-full bg-primary-100 py-10'>
+				<div className='h-[150px] w-full bg-primary-100 py-10 mt-8'>
 					<div className='mx-auto w-5/6 '>
 						<div className='flex w-3/5 items-center justify-between '>
 							<img
